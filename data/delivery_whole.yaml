@@ -1,0 +1,9 @@
+train: /home/yolo/yolov7/data/whole_ver2/train/images
+val: /home/yolo/yolov7/data/whole_ver2/valid/images
+test: /home/yolo/yolov7/data/whole_ver2/test/images
+
+# number of classes
+nc: 6
+
+# class names
+names: [ 'A1', 'A2', 'A3', 'B1', 'B2', 'B3' ]

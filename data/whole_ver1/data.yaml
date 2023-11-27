@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['a1', 'a2', 'a3', 'b1', 'b2', 'b3']
+
+roboflow:
+  workspace: project-mmein
+  project: delivery_sign
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-mmein/delivery_sign/dataset/1

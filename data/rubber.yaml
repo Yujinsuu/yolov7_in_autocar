@@ -1,0 +1,9 @@
+train: /home/yolo/yolov7/data/rubber_ver2/train
+val: /home/yolo/yolov7/data/rubber_ver2/valid
+test: /home/yolo/yolov7/data/rubber_ver2/test
+
+# number of classes
+nc: 2
+
+# class names
+names: [ 'Blue', 'Yellow' ]
