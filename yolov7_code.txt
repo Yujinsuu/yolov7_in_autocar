@@ -1,0 +1,6 @@
+training
+python3 train.py --weights train_model/yolov7.pt --data data/trafficlight.yaml --workers 8 --batch-size 8 --img 640 --cfg cfg/training/trafficlight.yaml --hyp data/hyp.scratch.p5.yaml --epoch 100 --name traffic_ver4
+
+
+detect
+python3 detect.py --weights runs/train/delivery_p5_tesseract/weights/best.pt --conf 0.25 --img-size 640 --source sign.mp4  --view-img
